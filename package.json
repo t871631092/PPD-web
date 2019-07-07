@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "run": "webpack",
+    "runserver": "webpack-dev-server",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -16,6 +18,11 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
-    "webpack": "^4.35.2"
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2",
+    "write-file-webpack-plugin": "^4.5.0"
   }
 }
