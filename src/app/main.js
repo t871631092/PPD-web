@@ -1,4 +1,6 @@
-import Vue from '../javascripts/vue'
+import Vue from '../javascripts/vue';
+import css from '../stylesheets/bootstrap.css';
+
 
 var app = new Vue({
     el: '#app',
